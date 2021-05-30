@@ -8,6 +8,7 @@ use syn::{Attribute, Data, Field, Meta, NestedMeta, Variant};
 pub(crate) static SERDE_KEYWORDS: &[&str] = &[
     "rename",
     "rename_all",
+    "rename_all_fields",
     "deny_unknown_fields",
     "tag",
     "content",
